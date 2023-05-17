@@ -41,7 +41,7 @@ const element = document.createElement('div');
 element.setAttribute('style', 'color: red;');
 element.innerText = "Hello world!";
 // finally, attach it somewhere with the appendChild method!
-const body = document.querySelector('body');
+// const body = document.querySelector('body');
 body.appendChild(element);
 
 // NOTE that createElement can only be called on the document object.
