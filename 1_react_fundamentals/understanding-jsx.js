@@ -54,3 +54,34 @@ const element2 = (
 // the thing is, JavaScript engines don't understand JSX, they only understand JavaScript.
 // so we need to compile this JSX into JavaScript
 // this is most commonly done using a tool like Babel.
+
+
+// Comments in JSX
+// Need to explicityly use the multi-line comment syntax
+
+const element = (
+  <div>
+    {/* Some comment! */}
+  </div>
+);
+
+
+// Attribute expression slots
+const someIdentifier = 'some-unique-identifier';
+
+const jsxelement = (
+  <div id={someIdentifier}>
+    Hello World
+  </div>
+);
+
+// The squiggly brackets {} allow us to create an expression slot.
+// Thus when this compiles we get...
+const reactelement = React.createElement(
+  'div',
+  {
+    id: someIdentifier,
+  },
+  'Hello World'
+);
+
