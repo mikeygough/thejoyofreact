@@ -1,4 +1,4 @@
-// CONDITIONAL RENDERING
+// CONDITIONAL RENDERING WITH &&
 
 
 // you can use if statements to conditionally render but it's a little awkward.
