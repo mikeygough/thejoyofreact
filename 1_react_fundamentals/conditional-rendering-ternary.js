@@ -17,6 +17,6 @@ function App({ user }) {
 
 
 // the ternary operator consists of three parts:
-// contion ? firstExpression : secondExpression
+// condition ? firstExpression : secondExpression
 // if condition is truthy, the first expression will be the one that gets evaluated.
 // if it's falsy, the second expression will be evaluated instead.
